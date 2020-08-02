@@ -1,0 +1,41 @@
+<html>
+    <head>
+            <title>
+                minutes to seconds conversion 
+            </title>
+         
+    </head>
+    <body style="background-color:green ;">
+        <script>
+               var x=prompt("enter the no")
+           function convert(x){
+
+               document.write(x*60)
+               return x*60
+           }
+           function show(){
+               document.getElementById("demo").innerHTML="Example : 1  minutes is equal to 60 seconds  example  5 minutes is 5*60 is eual to 300 "
+           }
+           function show1(){
+               document.getElementById("demo").innerHTML="the seconds in x minutes is" + x*60+"seconds"
+           }
+           function show2(){
+               document.getElementById("demo").innerHTML=""
+           }
+          
+
+        
+        </script>
+        <p id="demo"></p>
+        <table>
+            <tr>
+        <td><button style="width:200px ;height:100px ;text-transform:uppercase ;" onclick=convert(x)>plz  press the button for result</button></td>
+    <td><button style="width:200px ;height:100px ;text-transform:uppercase ;" onclick=show()>resource tab</button></td>
+<td><button style="width:200px ;height:100px ;text-transform:uppercase ;" onclick=show1()>solution</button></td>
+<td>   <button style="width:200px ;height:100px ;text-transform:uppercase ;" onclick=show2()>clear the text </button></td>
+                </tr>
+    </table>
+
+
+    </body>
+</html>
